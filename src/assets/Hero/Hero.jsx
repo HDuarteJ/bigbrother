@@ -27,7 +27,7 @@ const Hero = () => {
             <img src={logo} alt="Big Brother Logo" />
           </div>
           <p
-            className="mt-5 text-2xl font-bold text-center text-slate-300 px-6"
+            className="mt-5 text-2xl font-bold text-center text-white px-6"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
           >
             We Help You Build Your Dreams

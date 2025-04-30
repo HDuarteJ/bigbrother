@@ -1,7 +1,5 @@
 import React from "react";
-import background from "/images/deck_background.jpeg";
-import logo from "/images/big_brother-no_background.png";
-import Hero from "./assets/Hero";
+import Hero from "./assets/Hero/Hero";
 
 const App = () => {
   return (
