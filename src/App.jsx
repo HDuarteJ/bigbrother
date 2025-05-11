@@ -6,6 +6,9 @@ const App = () => {
   return (
     <div className="flex flex-col bg-slate-800 min-h-screen">
       <Hero />
+      <div className="h-100 bg-[url('assets\images\roof.jpeg')] bg-center bg-cover bg-fixed">
+        hello
+      </div>
       <Services />
     </div>
   );

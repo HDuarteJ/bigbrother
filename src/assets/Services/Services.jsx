@@ -12,28 +12,34 @@ const Services = () => {
         </div>
         <div className="flex flex-col space-x-0 space-y-6 items-center justify-evenly p-6 md:flex-row md:space-x-6 md:space-y-0">
           <div
-            className="h-100 w-70 flex flex-col border-2 items-center justify-start border-slate-500 rounded-2xl p-4 text-white hover:scale-105 transition-transform duration-300 ease-in-out"
+            className="h-100 shadow-lg shadow-black w-70 flex flex-col border-2 items-center justify-start border-slate-500 rounded-2xl p-4 text-white hover:shadow-2xl hover:scale-105 transition-transform-all duration-300 ease-in-out"
             style={{
               backgroundImage: `url(${renovate})`,
               backgroundSize: "cover",
             }}
           >
-            <h3 className="font-bold mb-4">Renovate</h3>
+            <h3 className="font-bold text-xl text-shadow-lg text-slate-200 text-shadow-black">
+              Renovate
+            </h3>
           </div>
           <div
-            className="h-100 w-70 flex flex-col border-2 items-center justify-start border-slate-500 rounded-2xl p-4 text-white hover:scale-105 transition-transform duration-300 ease-in-out"
+            className="h-100 shadow-lg shadow-black w-70 flex flex-col border-2 items-center justify-start border-slate-500 rounded-2xl p-4 text-white hover:shadow-2xl hover:scale-105 transition-transform-all duration-300 ease-in-out"
             style={{
               backgroundImage: `url(${build})`,
               backgroundSize: "cover",
             }}
           >
-            <h3 className="font-bold mb-4">Build</h3>
+            <h3 className="font-bold text-xl text-shadow-lg text-slate-200 text-shadow-black">
+              Build
+            </h3>
           </div>
           <div
-            className="h-100 w-70 flex flex-col border-2 items-center justify-start border-slate-500 rounded-2xl p-4 text-white hover:scale-105 transition-transform duration-300 ease-in-out"
+            className="shadow-lg shadow-black h-100 w-70 flex flex-col border-2 items-center justify-start border-slate-500 rounded-2xl p-4 text-white hover:shadow-2xl hover:scale-105 transition-transform-all duration-300 ease-in-out"
             style={{ backgroundImage: `url(${deck})`, backgroundSize: "cover" }}
           >
-            <h3 className="font-bold mb-4">Repair</h3>
+            <h3 className="font-bold text-xl text-shadow-lg text-slate-200 text-shadow-black">
+              Repair
+            </h3>
           </div>
         </div>
       </div>
