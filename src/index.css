@@ -1,2 +1,30 @@
 @import "tailwindcss";
 @plugin "tailwindcss-motion";
+/* .fade-in-pop-up {
+  animation: fade-in-pop-up 1s ease-in-out;
+}
+.fade-in-drop-down {
+  animation: fade-in-drop-down 1s ease-in-out;
+}
+
+@keyframes fade-in-pop-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-drop-down {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
