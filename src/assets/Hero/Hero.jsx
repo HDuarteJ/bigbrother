@@ -27,20 +27,19 @@ const Hero = () => {
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{
-              type: "spring",
-              stiffness: 500,
+              type: "spring", duration: 1, bounce: 0.3, delay: 0.1,
             }}
             initial={{ opacity: 0, y: -50 }}
             animate={{
               opacity: 1,
               y: 0,
             }}
-            className="fade-in-drop-down  bg-slate-100/20 w-60 backdrop-blur-sm p-3 rounded-2xl border-2 border-slate-400/50  transition-all duration-200 shadow-lg shadow-slate-900/50 hover:shadow-2xl hover:shadow-slate-900/70 md:w-1/2 lg:w-1/3 xl:w-1/4"
+            className="bg-slate-100/20 w-60 backdrop-blur-sm p-3 rounded-2xl border-2 border-slate-400/50 shadow-lg shadow-slate-900/50 md:w-1/2 lg:w-1/3 xl:w-1/4"
           >
             <img src={logo} alt="Big Brother Logo" />
           </motion.div>
           <motion.p
-            transition={{ type: "spring", bounce: 0.3, duration: 0.3 }}
+            transition={{ type: "spring", bounce: 0.3, duration: 1, delay: 0.4   }}
             initial={{ opacity: 0, y: 50 }}
             animate={{
               opacity: 1,
