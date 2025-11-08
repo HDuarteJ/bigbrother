@@ -1,5 +1,5 @@
 import deckImage from "@/assets/deck-work.jpg";
-import kitchenImage from "@/assets/kitchen-cabinets.jpg";
+import framingImage from "@/assets/framing.png";
 import renovationImage from "@/assets/renovation.jpg";
 
 const projects = [
@@ -9,9 +9,9 @@ const projects = [
     category: "Outdoor Living"
   },
   {
-    image: kitchenImage,
-    title: "Kitchen Cabinetry",
-    category: "Interior Work"
+    image: framingImage,
+    title: "Framing for New Construction",
+    category: "Structural Work"
   },
   {
     image: renovationImage,

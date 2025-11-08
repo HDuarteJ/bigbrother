@@ -9,7 +9,7 @@ const testimonials = [
   },
   {
     name: "Michael Chen",
-    role: "Business Owner",
+    role: "Bank Manager",
     text: "Professional, reliable, and skilled. They renovated our office space on time and within budget. The team was respectful and the craftsmanship is top-notch."
   },
   {
